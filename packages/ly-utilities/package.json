@@ -1,0 +1,11 @@
+{
+  "name": "@ly/utilities",
+  "main": "index.ts",
+  "author": "LaoYe<963766197@qq.com>",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {}
+}

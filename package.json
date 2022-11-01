@@ -1,0 +1,18 @@
+{
+  "name": "ly-react-design",
+  "type": "module",
+  "author": "LaoYe<963766197@qq.com>",
+  "private": true,
+  "license": "MIT",
+  "version": "0.0.1",
+  "scripts": {
+    "clean": "rimraf node_modules && rimraf 'docs/*/{node_modules}' && rimraf 'packages/*/{node_modules}' && pnpm i",
+    "docs:start": "pnpm --filter=./docs start"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^4.8.4"
+  }
+}

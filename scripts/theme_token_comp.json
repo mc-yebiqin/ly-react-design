@@ -1,0 +1,45 @@
+{
+  "color": {
+    "red": {},
+    "blue": {},
+    "green": {},
+    "brand": {}
+  },
+  "shadow": {},
+  "fontSize": {},
+  "lineHeights": {},
+  "fontWeights": {},
+  "fontFamilies": {},
+  "design": {
+    "font": {
+      "h1": {},
+      "h2": {},
+      "body": {},
+      "caption": {}
+    },
+    "button": {
+      "variant": {
+        "solid": {
+          "color": "white",
+          "backgroundColor": "brand.500",
+          "_hover": {
+            "backgroundColor": "brand.600"
+          },
+          "_active": {
+            "backgroundColor": "brand.700"
+          }
+        },
+        "outline": {
+          "color": "purple.500",
+          "borderColor": "purple.500",
+          "_hover": {
+            "backgroundColor": "brand.100"
+          },
+          "_active": {
+            "backgroundColor": "brand.200"
+          }
+        }
+      }
+    }
+  }
+}

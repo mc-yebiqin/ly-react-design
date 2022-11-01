@@ -1,0 +1,201 @@
+{
+  "color": {
+    "red": {},
+    "blue": {},
+    "green": {},
+    "brand": {}
+  },
+  "shadow": {},
+  "fontSize": {},
+  "lineHeights": {},
+  "fontWeights": {},
+  "fontFamilies": {},
+  "airgram": {
+    "sys": {
+      "color": {
+        "bg": {
+          "white": {
+            "type": "color",
+            "value": "{base.color.white}",
+            "description": "背景 - 白色背景"
+          },
+          "default": {
+            "value": "{base.color.gray.50}",
+            "type": "color",
+            "description": "背景 - 浅色，Gray.50"
+          },
+          "secondary": {
+            "value": "{base.color.gray.100}",
+            "type": "color",
+            "description": "背景 - 次要容器背景填充色，如详情Block hovered时背景，Gray.100"
+          },
+          "secondaryActive": {
+            "value": "{base.color.gray.200}",
+            "type": "color",
+            "description": "背景 - 次要容器背景填充色，如卡片 active 的背景，Gray.200"
+          },
+          "brand": {
+            "value": "{base.color.brand.50}",
+            "type": "color",
+            "description": "背景 - 品牌色，brand.50"
+          }
+        },
+        "primary": {
+          "base": {
+            "default": {
+              "value": "{base.color.brand.500}",
+              "type": "color",
+              "description": "Brand.500"
+            },
+            "hovered": {
+              "value": "{base.color.brand.600}",
+              "type": "color",
+              "description": "Brand.600"
+            },
+            "active": {
+              "value": "{base.color.brand.700}",
+              "type": "color",
+              "description": "Brand.700"
+            }
+          }
+        },
+        "text": {
+          "primary": {
+            "type": "color",
+            "value": "{base.color.gray.900}",
+            "description": "一级文本，默认文本色，Gray 900"
+          },
+          "secondary": {
+            "type": "color",
+            "value": "{base.color.gray.700}",
+            "description": "二级文本，Gray 700"
+          },
+          "placeholder": {
+            "type": "color",
+            "value": "{base.color.gray.400}",
+            "description": "占位提示文本，Gray 400"
+          },
+          "success": {
+            "type": "color",
+            "value": "{base.color.green.500}",
+            "description": "表示成功的文本色"
+          },
+          "warning": {
+            "type": "color",
+            "value": "{base.color.orange.500}",
+            "description": "表示警告或注意的文本色"
+          },
+          "error": {
+            "type": "color",
+            "value": "{base.color.red.500}",
+            "description": "表示错误的文本色"
+          },
+          "link": {
+            "type": "color",
+            "value": "{base.color.brand.500}",
+            "description": "链接色"
+          }
+        },
+        "border": {
+          "divider": {
+            "weak": {
+              "value": "{base.color.gray.100}",
+              "type": "color",
+              "description": "分割线 - 浅色 gray.100"
+            },
+            "base": {
+              "value": "{base.color.gray.200}",
+              "type": "color",
+              "description": "分割线 - 基础 gray.200"
+            },
+            "dark": {
+              "value": "{base.color.gray.800}",
+              "type": "color",
+              "description": "分割线 - 深色，如侧边栏分割线 gray.800"
+            }
+          },
+          "container": {
+            "value": "{base.color.gray.100}",
+            "type": "color",
+            "description": "Used to delineate a larger container, like Card or TextArea, gray.100"
+          },
+          "default": {
+            "value": "{base.color.gray.200}",
+            "type": "color",
+            "description": "描边浅色 - 输入框描边、线性按钮描边, gray.200"
+          },
+          "hovered": {
+            "value": "{base.color.gray.300}",
+            "type": "color",
+            "description": "描边浅色 - 悬停状态, gray.300"
+          },
+          "focused": {
+            "value": "{base.color.brand.500}",
+            "type": "color",
+            "description": "输入框聚焦, brand.500"
+          },
+          "brand": {
+            "value": "{base.color.brand.500}",
+            "type": "color",
+            "description": "Ghost按钮描边, brand.500"
+          },
+          "error": {
+            "value": "{base.color.red.500}",
+            "type": "color",
+            "description": "Used to indicate an error on a contained element, like TextField or TextArea, red.500"
+          }
+        }
+      },
+      "h1": {
+        "type": "typography",
+        "value": {
+          "fontSize": "{base.fontSize.32}",
+          "fontWeight": "{base.fontWeights.500}",
+          "lineHeight": "{base.lineHeights.48}"
+        }
+      },
+      "body": {
+        "type": "typography",
+        "value": {
+          "fontSize": "{base.fontSize.14}",
+          "fontWeight": "{base.fontWeights.400}",
+          "lineHeight": "{base.lineHeights.22}"
+        }
+      },
+      "caption": {
+        "type": "typography",
+        "value": {
+          "fontSize": "{base.fontSize.12}",
+          "fontWeight": "{base.fontWeights.400}",
+          "lineHeight": "{base.lineHeights.18}"
+        }
+      }
+    },
+    "comp": {
+      "btn": {
+        "primary": {
+          "default": {
+            "type": "color",
+            "value": "{base.color.brand.500}",
+            "description": "主要按钮 - 默认状态 Brand.500"
+          },
+          "hovered": {
+            "type": "color",
+            "value": "{base.color.brand.600}",
+            "description": "主要按钮 - 悬停状态 Brand.600"
+          },
+          "active": {
+            "type": "color",
+            "value": "{base.color.brand.700}",
+            "description": "主要按钮 - 激活状态 Brand.700"
+          }
+        },
+        "disabled": {
+          "type": "color",
+          "value": "{base.color.gray.100}",
+          "description": "不可点击状态"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "@ly/design",
+  "main": "src/index.ts",
+  "author": "LaoYe<963766197@qq.com>",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@emotion/css": "^11.10.5",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@ly/utilities": "workspace:*"
+  }
+}
